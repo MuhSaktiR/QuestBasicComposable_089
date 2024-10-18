@@ -100,6 +100,11 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 ),
                 modifier = Modifier.padding(bottom = 10.dp)
             )
+
+            Image(painter = painterResource(id = R.drawable.saya),
+                contentDescription = null,
+                modifier = Modifier.fillMaxWidth().padding(bottom = 60.dp)
+            )// atau ""
         }
     }
 }
