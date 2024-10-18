@@ -75,6 +75,14 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 contentDescription = null,
                 modifier = Modifier.size(330.dp).padding(top = 120.dp)
             )
+
+            Text(
+                text = "Nama",
+                fontWeight = FontWeight.Bold,
+                fontSize = 25.sp,
+                color = Color.Green,
+                modifier = Modifier.padding(top = 10.dp)
+            )
         }
     }
 }
