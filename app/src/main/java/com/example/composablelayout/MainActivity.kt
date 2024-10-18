@@ -63,6 +63,13 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
         )
+
+        Column(horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center,
+            modifier = Modifier.fillMaxWidth())
+        {
+            
+        }
     }
 }
 
