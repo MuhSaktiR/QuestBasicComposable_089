@@ -83,6 +83,14 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 color = Color.Green,
                 modifier = Modifier.padding(top = 10.dp)
             )
+
+            Text(text = "Muhamad Sakti Ramadhan",
+                style = TextStyle(
+                    fontSize = 20.sp,
+                    fontWeight =  FontWeight.Bold,
+                    color = Color.Black
+                )
+            )
         }
     }
 }
