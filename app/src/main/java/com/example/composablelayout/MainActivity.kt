@@ -66,46 +66,46 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
         )
+    }
 
-        Column(horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center,
-            modifier = Modifier.fillMaxWidth())
-        {
-            Image(painter = painterResource(id = R.drawable.umy2),
-                contentDescription = null,
-                modifier = Modifier.size(330.dp).padding(top = 120.dp)
+    Column(horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxWidth())
+    {
+        Image(painter = painterResource(id = R.drawable.umy2),
+            contentDescription = null,
+            modifier = Modifier.size(330.dp).padding(top = 120.dp)
+        )
+
+        Text(
+            text = "Nama",
+            fontWeight = FontWeight.Bold,
+            fontSize = 25.sp,
+            color = Color.Green,
+            modifier = Modifier.padding(top = 10.dp)
+        )
+
+        Text(text = "Muhamad Sakti Ramadhan",
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontWeight =  FontWeight.Bold,
+                color = Color.Black
             )
+        )
 
-            Text(
-                text = "Nama",
-                fontWeight = FontWeight.Bold,
-                fontSize = 25.sp,
-                color = Color.Green,
-                modifier = Modifier.padding(top = 10.dp)
-            )
+        Text(text = "20220140089",
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontWeight =  FontWeight.Bold,
+                color = Color.Black
+            ),
+            modifier = Modifier.padding(bottom = 10.dp)
+        )
 
-            Text(text = "Muhamad Sakti Ramadhan",
-                style = TextStyle(
-                    fontSize = 20.sp,
-                    fontWeight =  FontWeight.Bold,
-                    color = Color.Black
-                )
-            )
-
-            Text(text = "20220140089",
-                style = TextStyle(
-                    fontSize = 20.sp,
-                    fontWeight =  FontWeight.Bold,
-                    color = Color.Black
-                ),
-                modifier = Modifier.padding(bottom = 10.dp)
-            )
-
-            Image(painter = painterResource(id = R.drawable.saya),
-                contentDescription = null,
-                modifier = Modifier.fillMaxWidth().padding(bottom = 60.dp)
-            )// atau ""
-        }
+        Image(painter = painterResource(id = R.drawable.saya),
+            contentDescription = null,
+            modifier = Modifier.fillMaxWidth().padding(bottom = 60.dp)
+        )// atau ""
     }
 }
 
