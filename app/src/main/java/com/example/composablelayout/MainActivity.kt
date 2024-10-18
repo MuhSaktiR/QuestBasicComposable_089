@@ -54,6 +54,10 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 color = Color.Green
             )
         )
+
+        Text(
+            text = "Ini adalah halaman login",
+        )
     }
 }
 
